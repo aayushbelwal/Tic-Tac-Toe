@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-Tic-Tac-Toe game implementation in Command Line using Python.
+Game can be played between Players or v/s Computer.
 
 ![Main Menu Screen](./img/menu.png)
 
