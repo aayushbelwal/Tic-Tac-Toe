@@ -15,6 +15,3 @@ Game can be played between Players or v/s Computer.
 4. Open Terminal or Command Prompt
 5. Navigate to `./src` folder inside project
 6. Run `python3 play.py`
-
->__Note__ : Windows user change `os.system("clear")` to `os.system("cls")` inside `./src/play.py` file.
-
