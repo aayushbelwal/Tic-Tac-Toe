@@ -2,9 +2,13 @@ import os
 from game import TickTackToe
 from player import ComputerPlayer, HumanPlayer
 
+# clear screen
+def clear_screen():
+    os.system("cls" if os.name == "nt" else "clear")
+
 def play(game, player1, player2):
     # clear screen
-    os.system("clear")
+    clear_screen()
 
     # print board guide
     game.print_board_nums()
@@ -41,7 +45,7 @@ def main_menu():
 # game loop
 while True:
     # clear screen
-    os.system("clear")
+    clear_screen()
 
     # print main menu
     main_menu()
